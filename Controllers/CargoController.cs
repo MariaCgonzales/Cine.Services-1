@@ -26,7 +26,7 @@ namespace Cine.AppWeb.Controllers
         }
 
 
-        [HttpPost]
+        [Http Post]
         public ActionResult Crear(Cargo cargo)
         {
             var proxy = new TransaccionesClient();
